@@ -15,7 +15,7 @@ body{
 
 .lower{
     background-color:#3C4048;
-    height: 190px;
+    height: 290px;
     width: 100%;
    
     
@@ -113,8 +113,9 @@ form .submit{
         min-height: 100px;
          margin-top: 400px;
     }
-    .lower .curve{
-         display: none;
+    .lower {
+         heigth:100px;
+        
     }
     
    
