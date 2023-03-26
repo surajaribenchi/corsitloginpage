@@ -2,6 +2,9 @@
 body{
     background-color:#3C4048 ;
     overflow-x: visible;
+    overflow-y: visible;
+   height: auto;
+    
 }
 .upper{
     background-color: #3C4048;
@@ -12,7 +15,7 @@ body{
 
 .lower{
     background-color:#3C4048;
-    height: 290px;
+    height: 190px;
     width: 100%;
    
     
@@ -23,15 +26,10 @@ body{
     margin: 0 10px;
     margin-left: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
    overflow: visible;
 }
-.leftupper,.rightupper{
-   width: 400px;
-   height: 100%;
-   display: grid;
-   grid-template-columns: repeat(2,0.75fr);
-   }
+
 
 
 .card{
@@ -105,32 +103,21 @@ form .submit{
     height: 100%;
     width: 100%;
 }
-.style1{
-    margin: 0 70px;
-    margin-top: 150px;
-    height: 175px;
-    width: 175px;
-}
-.style2{
-    margin: 0 70px;
-}
-.big{
-    height: 175px;
-    width: 175px;
-    margin-left: 80px;
-}
+
 
 
 /* phone */
-@media only screen and(max-width:450px){
+@media screen and(max-width:450px){
     .card{
-        width:300px;
-        height:fit-content;
-        margin-top: 500px;
+        min-width:150px;
+        min-height: 100px;
+         margin-top: 400px;
     }
-    .leftupper,.rightupper{
-       width:0;
-       height: 0;
-     }
+    .lower .curve{
+         display: none;
+    }
+    
+   
+    
 }
 
